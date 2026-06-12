@@ -13,7 +13,7 @@ while True:
     elif choice ="2":
         print("Your tasks:")
         for i in range(len(tasks)):
-            print(i+1,".",tasks[i]):
+            print(i+1,".",tasks[i])
     elif choice=="3":
         num=int(input("Enter task number to remove:")
         tasks.pop(num-1)
