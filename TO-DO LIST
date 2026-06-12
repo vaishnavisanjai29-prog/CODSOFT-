@@ -18,4 +18,8 @@ while True:
         num=int(input("Enter task number to remove:")
         tasks.pop(num-1)
         print("Task removed!")
-  
+    elif choice=="4":
+        print("Program closed.")
+        break
+    else:
+        print("Invalid choice!")
